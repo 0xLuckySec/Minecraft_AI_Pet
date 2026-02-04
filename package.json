@@ -1,0 +1,29 @@
+{
+  "name": "minecraft_ai_pet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xLuckySec/Minecraft_AI_Pet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/0xLuckySec/Minecraft_AI_Pet/issues"
+  },
+  "homepage": "https://github.com/0xLuckySec/Minecraft_AI_Pet#readme",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "dotenv": "^17.2.3",
+    "mineflayer": "^4.34.0",
+    "mineflayer-collectblock": "^1.6.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mongoose": "^9.1.5"
+  }
+}

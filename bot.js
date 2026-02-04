@@ -3,8 +3,9 @@ const axios = require('axios');
 const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 const GoalFollow = goals.GoalFollow;
 const collectBlock = require('mineflayer-collectblock').plugin;
+require('dotenv').config();
 // --- AYARLAR ---
-const GROQ_API_KEY = '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'; 
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
 const MC_PORT = 25565; // Minecraft LAN portun!
 
 const bot = mineflayer.createBot({
